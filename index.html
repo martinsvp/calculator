@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Calculator</title>
+	</head>
+	<body>
+		<div class="container">
+			<button id="sun-btn" class="sun-btn">
+				<ion-icon name="sunny-outline" class="icon-theme"></ion-icon>
+			</button>
+			<button id="moon-btn" class="moon-btn">
+				<ion-icon name="moon-outline" class="icon-theme"></ion-icon>
+			</button>
+			<div class="display">
+				<div class="result"></div>
+				<div class="operation"></div>
+			</div>
+
+			<div class="buttons">
+				<button class="item clear">CE</button>
+				<button class="item clearAll">C</button>
+				<button class="item backspace"><ion-icon name="backspace-outline"></ion-icon>DEL</button>
+				<button class="item division">/</button>
+				<button class="item number">7</button>
+				<button class="item number">8</button>
+				<button class="item number">9</button>
+				<button class="item multiplication">*</button>
+				<button class="item number">4</button>
+				<button class="item number">5</button>
+				<button class="item number">6</button>
+				<button class="item minus">-</button>
+				<button class="item number">3</button>
+				<button class="item number">2</button>
+				<button class="item number">1</button>
+				<button class="item plus">+</button>
+				<button class="item number zero">0</button>
+				<button class="item comma">.</button>
+				<button class="item equal">
+					<svg id="equal-svg" xmlns="http://www.w3.org/2000/svg" width="28" height="12" viewBox="0 0 28 12" fill="none">
+						<rect width="28" height="3" fill="#FFFFFF" />
+						<rect y="9" width="28" height="3" fill="#FFFFFF" />
+					</svg>
+					=
+				</button>
+			</div>
+		</div>
+
+		<script src="./js/calculator.js"></script>
+		<script src="./js/toggleTheme.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
